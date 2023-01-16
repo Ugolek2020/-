@@ -1,0 +1,86 @@
+@media (max-width: 1260px) {
+
+	.infoItem {
+		padding: 30px;
+	}
+
+	.infoTitle {
+		font-size: 16px;
+	}
+
+	.infoText {
+		font-size: 14px;
+	}
+}
+
+
+@media (max-width: 1080px) {
+	.infoTitle {
+		letter-spacing: unset;
+	}
+
+	.aboutBlock {
+		padding-right: 30px;
+	}
+
+
+	.servContent {
+		height: 400px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.introCon {
+		height: 530px;
+	}
+
+	.introTitle {
+		font-size: 34px;
+		}
+
+	.introBlock {
+		text-align: center;
+	}
+
+	.infoItem{
+		padding: 20px;
+	}
+
+	.logo img {
+		height: 55px;
+	}
+
+	.servContent {
+		height: 300px;
+	}
+
+	.servContItem {
+		display: none;
+	}
+
+
+	.servContent:after {
+		display: none;
+	}
+
+	.aboutWrap {
+		flex-direction: column;
+	}
+
+	.aboutBlock {
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.aboutImg {
+		height: auto;
+		max-width: 100%;
+	}
+
+
+	.about {
+		padding: 30px 0;
+	}
+
+}
